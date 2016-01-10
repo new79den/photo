@@ -5,7 +5,7 @@ if(!isUserLogin()){
 	header('Location: login.php');
 	exit;
 }
-
+/*i like github*/
 
 include_once 'inc/header.php';
 ?>
