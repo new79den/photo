@@ -1,0 +1,143 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	background-color: #0040FF;
+	height: 60px;
+	margin-top: 50px;
+}
+
+.menu .containMenu ul{
+	list-style-type: none;
+}
+.menu .containMenu ul li{
+	text-transform: uppercase;
+	float: right;
+	line-height: 55px;
+	margin-right: 30px;
+}
+.menu .containMenu ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menu .containMenu ul li a:hover{
+	text-decoration: underline;
+}
+.ind{
+	width: 960px;
+	margin: 0 auto;
+}
+.ind h1{
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+.ind .photos .photo{
+	position: relative;
+	background-color: #E6E6E6;
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px #0040FF;
+	margin: 5px;
+}
+.ind .photos .photo .imag{
+	display: inline-block;
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	background-color: #000000;
+}
+.ind .photos .photo .imag img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: auto;
+	cursor: pointer;
+}
+.ind .photos .photo h2{
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 2px #0040FF;
+}
+.ind .photos .photo h3{
+	text-align: right;
+	font-weight: normal;
+}
+.ind .photos .photo h3 strong{
+	font-size: 25px;
+	text-shadow: 1px 1px 2px #0040FF; 
+}
+.login form{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	border: 1px solid black;
+	background-color: #0040FF;
+	padding: 20px;
+}
+.login strong{
+	font-size: 30px;
+	width: 200px;
+	display: inline-block;
+	color: white;
+}
+.login input[type="text"], .login input[type="password"]{
+	height: 25px;
+	width: 290px;
+	font-size:20px;
+	padding-left: 5px;
+}
+.login input[type="submit"], .login button{
+	width: 100%;
+	height: 60px;
+	margin: 20px auto 0;
+	display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	color: #0040FF;
+}
+
+.login h2{
+	text-align: center;
+	color: #fff;
+}
+.login h2 b{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+div.upload {
+	margin: auto;
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+
+}
+
+div.upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    cursor: pointer;
+}
+.bigPhoto{
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	max-height: 800px;
+}

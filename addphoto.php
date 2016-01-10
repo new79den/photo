@@ -5,6 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$nameImg = $_POST['user'];
 	$file = $_FILES;
 	uploadFileForServer($nameImg, $file);
+	//
 };
 ?>
 	<div class="login ind">
